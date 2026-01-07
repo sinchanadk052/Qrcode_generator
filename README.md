@@ -10,4 +10,3 @@ Easily convert any text, URL, or custom input into a scannable QR code directly 
 ⚡ Built with React + QRCode.react library.
 📱 Responsive design – works on desktop & mobile.
 
-✨ Built with ❤️ by itsjiya.zz
