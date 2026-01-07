@@ -8,7 +8,7 @@ function App() {
   const [bgColor, setBgColor] = useState("ffffff");
   const [qrCode, setQrCode] = useState("");
 
-  // Update QR code whenever word, size, or bgColor changes
+  
   useEffect(() => {
     if (word) {
       setQrCode(
@@ -45,7 +45,7 @@ function App() {
           <button onClick={handleClick}>Generate</button>
         </div>
 
-        {/* Extra Options */}
+       
         <div className="controls">
           <div className="control">
             <label>Background Color:</label>
@@ -77,7 +77,7 @@ function App() {
         {/* Download Button */}
         {qrCode && (
           <button className="download-btn" onClick={handleDownload}>
-            Download QR Code
+          Download 
           </button>
         )}
       </div>
